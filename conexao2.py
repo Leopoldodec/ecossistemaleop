@@ -1,7 +1,7 @@
 import pymysql
 from googletrans import Translator
 
-conn = pymysql.connect(host='mysql.ordebroc.com.br', port=3306, user='ordebroc03', passwd='baleopleop19', db='ordebroc03')
+conn = pymysql.connect(host='mbr', port=3306, user='03', passwd='b', db='or')
 
 cur = conn.cursor()
 cur.execute("SELECT * FROM tb_forma_pgto")
